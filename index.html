@@ -1,76 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <style>
-        body {
-            background-color: rgb(118, 122, 118);
-            font-style: italic;
-            color: rgb(250, 245, 245);
-            margin: 0px;
-            padding: 0px;
-        }
-        h1 {
-            color: rgb(255, 255, 255);
-        }
-        header {
-            background: black;
-            padding: 20px 50px;
-        }
-        section {
-            background: rgb(85, 12, 119);
-            color: rgb(255, 255, 245);
-            padding: 20px;
-            display: flex;
-            flex-direction: row;
-        }
-        footer {
-            background: black;
-            padding: 10px 20px;
-            color: blanchedalmond;
-        }
-        div {
-            background: aqua;
-            color: black;
-            margin: auto;
-            width: 120px;
-        }
-        ul {
-            margin: 0;
-            padding: 0;
-            list-style-type: none;
-        }
-        li {
-            display: inline-block;
-            margin-right: 20px;
-        }
-    </style>    
 
-    <head>
-        <title>Paco website</title>
-    </head>
-    <body>
-        <header>
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>Parrot</li>
-                    <li>Contact</li>
-                </ul>
-            </nav>
-            <h1>paco website</h1>
-        </header>
-        <section>
-            <div>a</div>
-            <div>b</div>
-            <div>c</div>
-        </section>
-        <section>lower-section</section>
-        <footer>footer</footer>
-        <un>
-            <li>Some parrots can live up to 100 years</li>
-            <li>there are 350 species of parrots around the world!</li>
-            <li>parrots taste with the tops of their beaks </li>
-        </un>
-        <a href="https://en.wikipedia.org/wiki/Parrot">Paco information</a>
+<head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Parrot Lover</title>
+</head>
 
-    </body>
+<body>
+    <header>
+        <nav>
+            <ul class="links">
+                <li class="link logo"><a href="index.html">Parrot Lover logo</a></li>
+                <li class="link"><a href="index.html">Home</a></li>
+                <li class="link"><a href="pages/Parrot-stuff.html">Parrot information</a></li>
+                <li class="link"><a href="pages/Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>
+            Parrot Lover
+        </h1>
+    </header>
+
+    <section class="main">
+        <div class="features">
+            <figure>
+                <a href="https://en.wikipedia.org/wiki/Macaw" target="_blank">
+                    <img src=".vscode/parrot1.jpg" alt="Macaw">
+                </a>
+                <figcaption>Macaws</figcaption>
+            </figure>
+            <figure>
+                <img src=".vscode/cockatoo.jpg" alt="Cockatoos">
+                <figcaption>Cockatoos</figcaption>
+            </figure>
+        </div>
+        <p>
+            birds are goreous animals,
+            but parrots are a more diverse species that evolved
+            into having so many different colors that look beautiful
+        </p>
+
+    </section>
+
+    <section class="low">lower-section</section>
+
+    <footer>footer</footer>
+
+</body>
+
 </html>
