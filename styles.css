@@ -10,10 +10,12 @@ body {
 
 h1.title {
     color: rgb(255, 255, 255);
+    font-size: 40px;
 }
 
 p {
     text-align: center;
+    font-size: 25px;
 }
 
 header {
@@ -26,6 +28,12 @@ header {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+hr {
+    height: 3px;
+    background-color: rgb(12, 12, 12);
+}
+
 
 header .logo a {
     display: inline-block;
@@ -55,10 +63,49 @@ header .logo a {
     color: rgb(15, 15, 15);
     padding: 20px;
 }    
+
     
 h3 {
     text-align: center;
 }
+/* main section */
+
+.sectionImg {
+    width: 400px;
+    height: 380px;
+    float: right;
+     border-radius: 30px;
+}
+
+.centeredImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 400px;
+    height: 380px;
+    border-radius: 30px;
+}
+
+h2 {
+    text-align: center;
+}
+.stuffS {
+    height: 1000px;
+    text-align: left
+}
+
+p.stuffS {
+    text-align: left;
+
+}
+
+.third {
+    background: rgb(255, 255, 255);
+    color: rgb(15, 15, 15);
+    padding: 20px;
+    height: 500px;
+}
+
 
 .features {
     display: flex;
@@ -66,8 +113,10 @@ h3 {
     flex-wrap: wrap;
     }
 
-.low {
-    background: rgb(7, 7, 7);
+.mid {
+    background: rgb(22, 22, 22);
+    color: white;
+    height: 40px;
 }
 
 a.footerL:visited {
@@ -119,7 +168,6 @@ a:hover {
     text-decoration: underline;
 }
 
-}
 li.info {
     list-style-type: disc;
     margin-right: 0;
