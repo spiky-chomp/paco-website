@@ -103,7 +103,7 @@ p.stuffS {
     background: rgb(255, 255, 255);
     color: rgb(15, 15, 15);
     padding: 20px;
-    height: 500px;
+    height: 550px;
 }
 
 
@@ -166,6 +166,9 @@ a
 }
 a:hover {
     text-decoration: underline;
+}
+a:link .footerL {
+       color: white;
 }
 
 li.info {
