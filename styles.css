@@ -55,20 +55,21 @@ header .logo a {
            background-position-y: -180px;
 
        }
-    }
+
         
-        
+    }  
+h3 {
+    text-align: center;
+}
+/* main section */
+
+
 .main {
     background: rgb(255, 255, 255);
     color: rgb(15, 15, 15);
     padding: 20px;
 }    
 
-    
-h3 {
-    text-align: center;
-}
-/* main section */
 
 .sectionImg {
     width: 400px;
@@ -104,6 +105,16 @@ p.stuffS {
     color: rgb(15, 15, 15);
     padding: 20px;
     height: 550px;
+   
+}
+@media screen and (max-width: 800px) {
+    .third {
+        height: 650px;
+        }
+}
+
+.ListC {
+    font-size: 25px;
 }
 
 
@@ -127,6 +138,7 @@ footer {
     background: black;
     padding: 10px 20px;
     color: blanchedalmond;
+    margin: auto;
 }
 .features figure {
    
