@@ -12,6 +12,9 @@ h1.title {
     color: rgb(255, 255, 255);
     font-size: 40px;
 }
+h2 {
+    font-size: 40px;
+}
 
 p {
     text-align: center;
@@ -91,7 +94,6 @@ h2 {
     text-align: center;
 }
 .stuffS {
-    height: 1000px;
     text-align: left
 }
 
@@ -104,30 +106,37 @@ p.stuffS {
     background: rgb(255, 255, 255);
     color: rgb(15, 15, 15);
     padding: 20px;
-    height: 550px;
-   
+    height: 650px;   
 }
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 800px) {
     .third {
-        height: 650px;
-        }
+        height: 550px;
+    }
+    .features{
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 .ListC {
+    display: grid;
     font-size: 25px;
+    padding: 10px;
 }
 
+.ListC-title {
+    font-weight: bold;
+}
 
 .features {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    }
+    display: grid;
+    grid-gap: 40px;
+    align-items: center;
+}
 
 .mid {
     background: rgb(22, 22, 22);
     color: white;
-    height: 40px;
+    padding: 10px;
 }
 
 a.footerL:visited {
